@@ -31,7 +31,7 @@ Wersja repozytorium: **1.3**
         ├── v2
         │   ├── Date.cpp
         │   ├── Date.h
-        │   ├── in.txt
+        │   ├── in.txt                                # Przykładowy plik wejściowy
         │   ├── menu.cpp
         │   ├── Person.cpp
         │   ├── Person.h
@@ -48,7 +48,7 @@ Wersja repozytorium: **1.3**
             │   │   ├── Date.cpp
             │   │   ├── Person.cpp
             │   │   └── Tree.cpp
-            │   ├── in.txt
+            │   ├── in.txt                            # Przykładowy plik wejściowy
             │   ├── main.cpp
             │   └── tree_v3.exe                       # Działający program (eliminowanie błędów) wsparcie dla Windows XP
             └── tree_pl_char
@@ -60,7 +60,7 @@ Wersja repozytorium: **1.3**
                 │   ├── Date.cpp
                 │   ├── Person.cpp
                 │   └── Tree.cpp
-                ├── in.txt
+                ├── in.txt                            # Przykładowy plik wejściowy
                 ├── main.cpp
                 └── tree_pl_char.exe                  # Działający program (eliminowanie błędów) Polskie znaki (nie dla XP)
 ```
