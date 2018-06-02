@@ -50,6 +50,7 @@ Wersja repozytorium: **1.3**
             │   │   └── Tree.cpp
             │   ├── in.txt                            # Przykładowy plik wejściowy
             │   ├── main.cpp
+            │   ├── tree.zip                          # Kod źródłowy spakowany wraz z plikiem wykonywalnym
             │   └── tree_v3.exe                       # Działający program (eliminowanie błędów) wsparcie dla Windows XP
             └── tree_pl_char
                 ├── include
@@ -62,5 +63,6 @@ Wersja repozytorium: **1.3**
                 │   └── Tree.cpp
                 ├── in.txt                            # Przykładowy plik wejściowy
                 ├── main.cpp
+                ├── tree_pl_char.zip                  # Kod źródłowy spakowany wraz z plikiem wykonywalnym
                 └── tree_pl_char.exe                  # Działający program (eliminowanie błędów) Polskie znaki (nie dla XP)
 ```
