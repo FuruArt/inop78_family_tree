@@ -2,15 +2,16 @@
 
 > Projekt aplikacji drzewa genealogicznego na zaliczenie Inżynierii Oprogramowania
 
-Wersja repozytorium: **1.3**
+Wersja repozytorium: **1.4**
 
 ---
 
-### Lista zmian (v.1.3)
+### Lista zmian (v.1.4)
 - Dodanie kolejnej wersji DP
 - Dodanie kolejnej wersji DF
 - Dodanie działącej bazy aplikacji Drzewa Genealogicznego
 - Dodanie kolejnych wersji oprogramowania Drzewa Genealogicznego
+- Dodanie v4
 
 ### Struktura zmian
 ```
@@ -39,6 +40,34 @@ Wersja repozytorium: **1.3**
         │   ├── Tree.h
         │   └── tree_v2.exe                           # Działający program drzewa genealogicznego (brak wsparcia dla Windows XP)
         └── v3
+        │   ├── tree
+        │   │   ├── include
+        │   │   │   ├── Date.h
+        │   │   │   ├── Person.h
+        │   │   │   └── Tree.h
+        │   │   ├── src
+        │   │   │   ├── Date.cpp
+        │   │   │   ├── Person.cpp
+        │   │   │   └── Tree.cpp
+        │   │   ├── in.txt                            # Przykładowy plik wejściowy
+        │   │   ├── main.cpp
+        │   │   ├── tree.zip                          # Kod źródłowy spakowany wraz z plikiem wykonywalnym
+        │   │   └── tree_v3.exe                       # Działający program (eliminowanie błędów) wsparcie dla Windows XP
+        │   └── tree_pl_char
+        │       ├── include
+        │       │   ├── Date.h
+        │       │   ├── Person.h
+        │       │   └── Tree.h
+        │       ├── src
+        │       │   ├── Date.cpp
+        │       │   ├── Person.cpp
+        │       │   └── Tree.cpp
+        │       ├── in.txt                            # Przykładowy plik wejściowy
+        │       ├── main.cpp
+        │       ├── tree_pl_char.zip                  # Kod źródłowy spakowany wraz z plikiem wykonywalnym
+        │       └── tree_pl_char.exe                  # Działający program (eliminowanie błędów) Polskie znaki (nie dla XP)
+        │
+        └── v4
             ├── tree
             │   ├── include
             │   │   ├── Date.h
@@ -50,9 +79,11 @@ Wersja repozytorium: **1.3**
             │   │   └── Tree.cpp
             │   ├── in.txt                            # Przykładowy plik wejściowy
             │   ├── main.cpp
-            │   ├── tree.zip                          # Kod źródłowy spakowany wraz z plikiem wykonywalnym
-            │   └── tree_v3.exe                       # Działający program (eliminowanie błędów) wsparcie dla Windows XP
-            └── tree_pl_char
+            │   ├── resources.rc                      # Dodanie ikony
+            │   ├── tree.ico                          # Ikona
+            │   ├── tree_v4.zip                       # Kod źródłowy spakowany wraz z plikiem wykonywalnym
+            │   └── tree_v4.exe                       # Działający program (eliminowanie błędów) wsparcie dla Windows XP
+            └── tree_v4_pl_char
                 ├── include
                 │   ├── Date.h
                 │   ├── Person.h
@@ -63,6 +94,8 @@ Wersja repozytorium: **1.3**
                 │   └── Tree.cpp
                 ├── in.txt                            # Przykładowy plik wejściowy
                 ├── main.cpp
-                ├── tree_pl_char.zip                  # Kod źródłowy spakowany wraz z plikiem wykonywalnym
-                └── tree_pl_char.exe                  # Działający program (eliminowanie błędów) Polskie znaki (nie dla XP)
+                ├── resources.rc                      # Dodanie ikony
+                ├── tree.ico
+                ├── tree_v4_pl_char.zip               # Kod źródłowy spakowany wraz z plikiem wykonywalnym
+                └── tree_v4_pl_char.exe               # Działający program (eliminowanie błędów) Polskie znaki (nie dla XP)
 ```
