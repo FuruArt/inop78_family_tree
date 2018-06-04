@@ -2,15 +2,6 @@
 
 using std::stoi;
 
-Date::Date()
-	:
-	_day(0),
-	_month(0),
-	_year(0),
-	_date("00-00-0000")
-{
-}
-
 Date::Date(string date)
 	:
 	_date(date)
@@ -34,29 +25,6 @@ Date::Date(string date)
 	this->_month = month;
 	this->_year = year;
 }
-
-Date::Date(const Date& copy)
-	:
-	_day(copy._day),
-	_month(copy._month),
-	_year(copy._year),
-	_date(copy._date)
-{
-}
-
-Date& Date::operator=(const Date& copy)
-{
-	if (this == &copy)
-    {
-        return *this;
-	}
-	this->_day = copy._day;
-	this->_month = copy._month;
-	this->_year = copy._year;
-	this->_date = copy._date;
-	return *this;
-}
-
 
 bool Date::operator< (const Date& right)
 {
@@ -108,16 +76,4 @@ int Date::getMonth()
 int Date::getYear()
 {
     return this->_year;
-}
-
-ostream& operator<<(ostream& s, const Date& d)
-{
-	if (d._day>9 && d._month>9)
-		return s << d._day << "-" << d._month << "-" << d._year;
-	else if (d._day<10 && d._month>9)
-		return s << "0" << d._day << "-" << d._month << "-" << d._year;
-	else if (d._day>9 && d._month<10)
-		return s << d._day << "-" << "0" << d._month << "-" << d._year;
-	else
-		return s << "0" << d._day << "-" << "0" << d._month << "-" << d._year;
 }

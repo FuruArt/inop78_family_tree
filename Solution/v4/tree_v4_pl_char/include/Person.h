@@ -43,12 +43,6 @@ public:
 	//konstruktor przyjmuj¹cy imiê, nazwisko, nazwisko rodowe, datê urodzenia, datê œmierci, oraz p³eæ(0=kobieta, 1=mê¿czyzna), oraz nazwê relacji
 	Person(string, string, string, Date, Date, bool, string);
 
-	//konstruktor kopiuj¹cy
-	Person(const Person&);
-
-	//przeci¹¿enie operatora przypisania
-	Person& operator=(const Person&);
-
 	//metoda defiuniuj¹ca w jakim formacie cz³onek rodziny ma byæ wyœwietlany
 	friend ostream & operator<<(ostream&, Person&);
 

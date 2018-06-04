@@ -31,19 +31,10 @@ protected:
 	int _year;
 	string _date;
 public:
-    //konstruktor domyœlny, ustawia datê na 00-00-0000
-	Date();
-
 	//konstruktor z parametrem w postaci ci¹gu znaków
 	Date(string);
 
-	//konstruktor kopiuj¹cy
-	Date(const Date&);
-
-	//przeci¹¿enie operaora przypisania
-	Date& operator=(const Date&);
-
-
+	//przeci¹¿enie operatora porównania
     bool operator< (const Date&);
 
 	//metoda zwracaj¹ca prawdê, je¿eli data zosta³a ustawiona
@@ -60,11 +51,6 @@ public:
 
     //metoda zwracaj¹ca rok
     int getYear();
-
-    //metoda opisuj¹ca w jakim formacie data ma byæ wyœwietlana
-	friend ostream& operator<<(ostream&, const Date&);
-
-
 };
 
 #endif
