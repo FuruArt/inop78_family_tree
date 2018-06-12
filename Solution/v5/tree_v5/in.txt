@@ -1,0 +1,11 @@
+dziadek Peter Middleton n 03-09-1920 02-11-2010 404 404 404 404 -2 1
+babcia Valerie Middleton Glassborow 05-01-1924 16-09-2006 404 404 404 404 -2 0
+matka Carole Middleton Goldsmith 31-01-1955 00-00-0000 404 404 404 404 -1 1
+ojciec Michael Middleton n 23-06-1949 00-00-0000 -2 1 -2 0 -1 0
+-> Kate Cambridge Middleton 09-01-1982 00-00-0000 -1 0 -1 1 1 0 0
+maz William Cambridge n 21-06-1982 00-00-0000 404 404 404 404 0 0
+syn George Cambridge n 22-07-2013 00-00-0000 0 0 1 0 404 404
+corka Charlotte Cambridge n 02-05-2015 00-00-0000 0 0 1 0 404 404 
+syn Louis Cambridge n 23-04-2018 00-00-0000 0 0 1 0 404 404
+siostra Pippa Middleton n 06-09-1983 00-00-0000 -1 0 -1 1 404 404
+brat James Middleton n 15-04-1987 00-00-0000 -1 0 -1 1 404 404
